@@ -51,6 +51,12 @@ header {
 .password a {
 	color:#fff;
     text-decoration: none;
+
+}
+.password a:hover{
+	
+    text-decoration: underline;
+
 }
 .password input{
 	height: 20px;
@@ -60,9 +66,18 @@ header {
 .loginbutton{
 	float: left;
 	margin:10px;
-	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-top: 28px;
 	
+
+}
+
+.loginbutton input{
+    height: 22px;
+	width: 50px;
+	border:1px solid #133783;
+	background: #4267b2;
+	color: white;
+	border-radius: 2px;
 }
 
 
