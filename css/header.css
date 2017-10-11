@@ -1,0 +1,68 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header {
+
+	height:82px;
+	background-color: #3b5998;
+	border-bottom:1px solid #133783;
+}
+
+.header-block{
+	width: 990px;
+	margin: 0 auto
+}
+
+.logo{
+	width: 50%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.login{
+
+	width: 50%;
+	float: left;
+}
+
+.header-block label{
+    color:white;
+}
+.email{
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.email input{
+	height: 20px;
+	width: 150px;
+	border:1px solid #133783;
+}
+.password{
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 15px;
+}
+.password a {
+	color:#fff;
+    text-decoration: none;
+}
+.password input{
+	height: 20px;
+	width: 150px;
+	border:1px solid #133783;
+}
+.loginbutton{
+	float: left;
+	margin:10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	
+}
+
+
