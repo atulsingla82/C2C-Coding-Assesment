@@ -1,11 +1,13 @@
-function change_text() {
-    var button = document.getElementById('toggle_button');
+function change()
+             {
+                if(document.getElementById("toggle_logo").innerHTML=="facebook")
+                  {
+                    document.getElementById("toggle_logo").innerHTML="atul";
+                  }
+                  else
+                 {
+                   document.getElementById("toggle_logo").innerHTML="facebook";
+                  }
+             }
 
-    if (button.innerHTML == "facebook") {
-        button.innerHTML = "Atul";
-    }
-    else {
-        button.innerHTML == "facebook";
-    }
-}
 
