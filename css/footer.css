@@ -19,3 +19,13 @@ a:hover{
     text-decoration: underline;
 
 }
+
+.table a{
+	text-decoration: none;
+	margin: 20px;
+}
+a:hover{
+	
+    text-decoration: underline;
+
+}

@@ -5,7 +5,7 @@ body{
 	width: 990px;
 	margin: 0 auto;
 	overflow: auto;
-	padding-bottom: 75px;
+	padding-bottom: 70px;
 }
 
 #image{
@@ -36,29 +36,35 @@ body{
 }
 
 .account input[name="firstname"]{
-    
+   border: 1px solid grey;
+	border-radius: 5px;
     margin:8px;
 	height: 30px;
 	width: 35%;
+	padding: 5px;
+	
 }
 
 .account input[name="lastname"]{
-   
+   border: 1px solid grey;
+	border-radius: 5px;
     margin:7px;
-	height: 30px;
+	height: 32px;
 	width: 35%;
 }
 
 .account input[name="email"]{
-    
+   border: 1px solid grey;
+	border-radius: 5px;
     margin:7px;
-	height: 30px;
+	height: 32px;
 	width: 75%;
 }
 .account input[name="password"]{
-    
+   border: 1px solid grey;
+	border-radius: 5px;
     margin:7px;
-	height: 30px;
+	height: 32px;
 	width: 75%;
 }
 .birthday{
@@ -83,7 +89,4 @@ select{
 	color:#fff;
 	font-size: 18px;
 	margin-bottom: 12px;
-}
-hr{
-	background-color: grey;
 }
