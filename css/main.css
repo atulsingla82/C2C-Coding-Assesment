@@ -1,8 +1,72 @@
 .main{
-	/*background-color: #edf0f5;*/
+	width: 990px;
+	margin: 0 auto;
+	background-color: red;
 }
 
 #image{
+    height: 250px;
+	width: 500px;
+}
+.clearfix{
+	clear:both;
+}
 
-	width: 750px;
+.connect{
+	float: left;
+     width:50%;
+	margin-top: 50px;
+}
+
+.signup{
+    margin-top: 50px;
+	float: left;
+	width:50%;
+
+}
+
+.signup .free{
+
+	font-size: 20px;
+
+}
+
+.account input[name="firstname"]{
+    
+    margin:8px;
+	height: 30px;
+	width: 35%;
+}
+
+.account input[name="lastname"]{
+   
+    margin:8px;
+	height: 30px;
+	width: 35%;
+}
+
+.account input[name="email"]{
+    
+    margin:8px;
+	height: 30px;
+	width: 75%;
+}
+.account input[name="password"]{
+    
+    margin:8px;
+	height: 30px;
+	width: 75%;
+}
+.birthday{
+	margin:12px;
+}
+select{
+	height: 25px;
+
+}
+.gender{
+	margin:15px;
+}
+.terms{
+	font-size: 12px;
 }
