@@ -90,6 +90,7 @@ body{
 }
 .birthday{
 	margin:8px;
+	
 }
 .birthday a{
 	text-decoration: none;
@@ -103,6 +104,10 @@ select{
 }
 .gender{
 	margin:10px;
+}
+.why{
+	font-size: 12px;
+	margin:auto;
 }
 .terms{
 	font-size: 12px;
