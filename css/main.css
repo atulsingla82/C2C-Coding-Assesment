@@ -2,24 +2,26 @@ body{
 	background-color: #edf0f5;
 }
 .main{
-	width: 990px;
+	width: 995px;
 	margin: 0 auto;
 	overflow: auto;
 	padding-bottom: 70px;
 }
 
 #image{
-    height: 250px;
-	width: 500px;
+    height: 245px;
+	width: 450px;
+	margin-right: 20px;
 }
-.clearfix{
+/*.clearfix{
 	clear:both;
-}
+}*/
 
 .connect{
 	float: left;
      width:50%;
 	margin-top: 50px;
+
 }
 
 .signup{

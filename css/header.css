@@ -15,7 +15,7 @@ header {
 }
 
 .logo{
-
+    font-family: 'Source Sans Pro', sans-serif;
 	width: 50%;
 	float: left;
 	padding-top: 30px;
@@ -33,24 +33,30 @@ header {
     color:white;
 }
 .email{
+	font-family: 'PT Sans', sans-serif;
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	font-size: 12px;
 
 }
 .email input{
+	font-family: 'PT Sans', sans-serif;
 	height: 20px;
 	width: 150px;
 	border:1px solid #133783;
+	font-size: 12px;
 }
 .password{
+	font-family: 'PT Sans', sans-serif;
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-left: 15px;
+	font-size: 12px;
 }
 .password a {
-	color:#fff;
+	color:#9cb4d8;
     text-decoration: none;
 
 }
@@ -67,7 +73,7 @@ header {
 .loginbutton{
 	float: left;
 	margin:10px;
-	padding-top: 28px;
+	padding-top: 25px;
 	
 
 }
@@ -79,6 +85,9 @@ header {
 	background: #4267b2;
 	color: white;
 	border-radius: 2px;
+}
+.loginbutton :hover{
+	background: #3b5998;
 }
 
 
