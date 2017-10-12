@@ -21,6 +21,7 @@ a:hover{
 }
 
 .table a{
+	font-family: 'PT Sans', sans-serif;
 	text-decoration: none;
 	margin: 20px;
 }
@@ -28,4 +29,8 @@ a:hover{
 	
     text-decoration: underline;
 
+}
+.copy{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
 }
